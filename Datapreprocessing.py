@@ -4,9 +4,13 @@ Created on Mon Feb 12 12:34:32 2018
 
 @author: Johannes
 """
+"""
+This program extracts the GPS coordinates from the counties listed in the .json file and computes their centroids.
+Then it feeds the newly computed centroids into an output csv file for further handling
+"""
 import csv
 import json
-from pprint import pprint
+
 
 def __MAIN__():
     centroidfile = open("coordinates_file.csv", "w")
