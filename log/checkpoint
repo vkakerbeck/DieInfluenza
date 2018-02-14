@@ -1,0 +1,2 @@
+model_checkpoint_path: "FFNCountyRisk.ckpt"
+all_model_checkpoint_paths: "FFNCountyRisk.ckpt"
